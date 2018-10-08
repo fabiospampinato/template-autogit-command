@@ -12,7 +12,7 @@ npm install --save {{#scoped}}@{{owner}}/{{/scoped}}{{name}}
 
 #### Options
 
-This plugin uses the following options object:
+This command uses the following options object:
 
 ```js
 {}
