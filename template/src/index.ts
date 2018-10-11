@@ -3,9 +3,9 @@
 
 const defaultOptions = {};
 
-function {{_ "camelCase" name}} ( options? ) {
+function {{_ "camelCase" name}} ( customOptions?: Partial<typeof defaultOptions> ) {
 
-  options = Object.assign ( {}, defaultOptions, options );
+  const options = Object.assign ( {}, defaultOptions, customOptions );
 
   return {
     description: '{{description}}',
