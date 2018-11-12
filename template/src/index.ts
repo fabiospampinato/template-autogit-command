@@ -16,4 +16,4 @@ function {{_ "camelCase" name}} ( customOptions?: Partial<typeof defaultOptions>
 
 /* EXPORT */
 
-export = Object.assign ( {{_ "camelCase" name}}, { default: {{_ "camelCase" name}} } );
+export default {{_ "camelCase" name}};
